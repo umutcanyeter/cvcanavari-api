@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Entities", "Cvcanavari.Entities\Cvcanavari.Entities.csproj", "{8F28EBA6-C428-43D3-A456-D679A23D2C6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.DataAccess", "Cvcanavari.DataAccess\Cvcanavari.DataAccess.csproj", "{8B38237E-2B97-4676-BB8C-8FDE2186B99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Business", "Cvcanavari.Business\Cvcanavari.Business.csproj", "{8EC3139F-F59C-46B6-9678-B208CFE19400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8F28EBA6-C428-43D3-A456-D679A23D2C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F28EBA6-C428-43D3-A456-D679A23D2C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F28EBA6-C428-43D3-A456-D679A23D2C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B38237E-2B97-4676-BB8C-8FDE2186B99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B38237E-2B97-4676-BB8C-8FDE2186B99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B38237E-2B97-4676-BB8C-8FDE2186B99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B38237E-2B97-4676-BB8C-8FDE2186B99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

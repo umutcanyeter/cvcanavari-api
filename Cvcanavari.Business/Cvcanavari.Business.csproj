@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cvcanavari.DataAccess\Cvcanavari.DataAccess.csproj" />
+    <ProjectReference Include="..\Cvcanavari.Entities\Cvcanavari.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
