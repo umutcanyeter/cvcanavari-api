@@ -10,7 +10,7 @@ namespace Cvcanavari.DataAccess.Concrete.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Cvcanavari;Integrated Security=True;");
+            optionsBuilder.UseSqlServer(Connection.String);
         }
 
         public DbSet<Cv> Cvs { get; set; }

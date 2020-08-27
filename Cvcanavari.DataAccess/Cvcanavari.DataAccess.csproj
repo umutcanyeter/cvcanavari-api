@@ -21,4 +21,19 @@
     <ProjectReference Include="..\Cvcanavari.Entities\Cvcanavari.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Concrete\Context\Connection.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Connection.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Concrete\Context\Connection.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Connection.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
