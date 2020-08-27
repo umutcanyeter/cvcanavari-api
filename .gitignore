@@ -339,5 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
-*./DataAccess/Concrete/Context/Connection.Designer.cs
-*./DataAccess/Concrete/Context/Connection.resx
+*./Cvcanavari.DataAccess/Concrete/Context/Connection.Designer.cs
+*./Cvcanavari.DataAccess/Concrete/Context/Connection.resx
