@@ -3,9 +3,6 @@ using Cvcanavari.Business.Interfaces;
 using Cvcanavari.DataAccess.Abstract;
 using Cvcanavari.DataAccess.Concrete.Repository;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Cvcanavari.Business.Containers
 {

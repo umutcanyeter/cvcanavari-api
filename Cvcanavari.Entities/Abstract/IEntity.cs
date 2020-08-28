@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Cvcanavari.Entities.Abstract
+﻿namespace Cvcanavari.Entities.Abstract
 {
     public interface IEntity
     {

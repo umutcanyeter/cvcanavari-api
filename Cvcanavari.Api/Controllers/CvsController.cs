@@ -9,7 +9,7 @@ namespace Cvcanavari.Api.Controllers
     [ApiController]
     public class CvsController : ControllerBase
     {
-        private ICvService _cvService;
+        private readonly ICvService _cvService;
 
         public CvsController(ICvService cvService)
         {
