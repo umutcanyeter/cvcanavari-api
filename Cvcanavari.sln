@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.DataAccess", "Cv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Business", "Cvcanavari.Business\Cvcanavari.Business.csproj", "{8EC3139F-F59C-46B6-9678-B208CFE19400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Api", "Cvcanavari.Api\Cvcanavari.Api.csproj", "{3801C138-2D94-441D-958C-FD0613B91804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC3139F-F59C-46B6-9678-B208CFE19400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3801C138-2D94-441D-958C-FD0613B91804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3801C138-2D94-441D-958C-FD0613B91804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3801C138-2D94-441D-958C-FD0613B91804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3801C138-2D94-441D-958C-FD0613B91804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
