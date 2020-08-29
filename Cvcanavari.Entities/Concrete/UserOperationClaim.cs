@@ -1,6 +1,8 @@
-﻿namespace Cvcanavari.Entities.Concrete
+﻿using Cvcanavari.Entities.Abstract;
+
+namespace Cvcanavari.Entities.Concrete
 {
-    public class UserOperationClaim
+    public class UserOperationClaim : IEntity
     {
         public int Id { get; set; }
         public int UserId { get; set; }
