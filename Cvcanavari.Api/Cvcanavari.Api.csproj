@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cvcanavari.Business\Cvcanavari.Business.csproj" />
+    <ProjectReference Include="..\Cvcanavari.Utilities\Cvcanavari.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.7" />
   </ItemGroup>
 
 

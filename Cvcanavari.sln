@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Api", "Cvcanavar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Utilities", "Cvcanavari.Utilities\Cvcanavari.Utilities.csproj", "{FDC5DAB9-7D8B-4161-BE2D-B1C6D3044F4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cvcanavari.Extensions", "Cvcanavari.Extensions\Cvcanavari.Extensions.csproj", "{B9BDD472-8CE5-4AB0-A465-05C8F75E034F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FDC5DAB9-7D8B-4161-BE2D-B1C6D3044F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC5DAB9-7D8B-4161-BE2D-B1C6D3044F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC5DAB9-7D8B-4161-BE2D-B1C6D3044F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BDD472-8CE5-4AB0-A465-05C8F75E034F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BDD472-8CE5-4AB0-A465-05C8F75E034F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BDD472-8CE5-4AB0-A465-05C8F75E034F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BDD472-8CE5-4AB0-A465-05C8F75E034F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
