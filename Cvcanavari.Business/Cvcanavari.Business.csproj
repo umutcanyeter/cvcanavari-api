@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Cvcanavari.DataAccess\Cvcanavari.DataAccess.csproj" />
     <ProjectReference Include="..\Cvcanavari.Entities\Cvcanavari.Entities.csproj" />
+    <ProjectReference Include="..\Cvcanavari.Utilities\Cvcanavari.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

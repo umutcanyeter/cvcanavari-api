@@ -4,14 +4,16 @@ using Cvcanavari.DataAccess.Concrete.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Cvcanavari.DataAccess.Migrations
 {
     [DbContext(typeof(CvcanavariDbContext))]
-    partial class CvcanavariDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200830225103_jwtTablesAdded")]
+    partial class jwtTablesAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
